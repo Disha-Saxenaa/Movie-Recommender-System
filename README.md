@@ -16,9 +16,7 @@ Instead of relying purely on raw ratings (where a movie rated 5.0 by 2 people wo
 
    * **Popularity Score:** Computes the rating count per movie and applies Min-Max scaling so values fall cleanly between `0` and `1`:
 
-     $$
-     \text{popularity} = \frac{x - \min(x)}{\max(x) - \min(x)}
-     $$
+     $\text{popularity} = \frac{x - \min(x)}{\max(x) - \min(x)}$
 
 3. **Exploratory Analysis:** Visualizes user activity and rating-count distributions (showing the long-tail / right-skewed pattern where most movies have relatively few ratings).
 
